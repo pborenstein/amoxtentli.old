@@ -10,7 +10,7 @@
     "debug": "DEBUG=* npx eleventy"
   },
   "keywords": [],
-  "repository": "https://github.com/pborenstein/minimal-11ty.git",
+  "repository": "https://github.com/pborenstein/amoxtentli.git",
   "author": "Philip Borenstein",
   "license": "MIT",
   "devDependencies": {
