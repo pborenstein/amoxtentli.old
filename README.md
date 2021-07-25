@@ -1,9 +1,5 @@
-# minimal-11ty
+# amoxtentli
 
-Three minimal Eleventy sites in one repo.
+[amoxtentli](https://nahuatl.uoregon.edu/content/amoxtentli)
 
-| branch | description |
-| :--- | :--- |
-| micro | `.eleventy.js` to set up the directories, one content page  |
-| tiny | adds `./includes/base.njk` and another content page |
-| minimal | adds collections, js, data, partials, icons |
+marginalia
