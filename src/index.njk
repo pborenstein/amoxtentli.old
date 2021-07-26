@@ -6,11 +6,11 @@ layout: layouts/base.njk
 
 
 <ul class="amoxtentli">
-{%-for post in collections.amoxtentli -%}
+{%-for post in collections.amoxtentli | reverse -%}
   <li><article >
       <header>{{post.data.title}}</header>
       <section>{{post.data.summary  | safe}}</section>
-      <footer><a href={{post.url}}>#</a> {{post.date.toDateString()}}</footer>
+      <footer><a href={{post.url}}>#</a> {{post.date}}</footer>
   </article></li>
 {% endfor -%}
 </ul>
