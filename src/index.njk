@@ -10,7 +10,7 @@ layout: layouts/base.njk
   <li><article >
       <header>{{post.data.title}}</header>
       <section>{{post.data.summary  | safe}}</section>
-      <footer><a href={{post.url}}>#</a> {{post.date}}</footer>
+      <footer><a href={{post.url}}>#</a> {{post.date.toDateString()}}</footer>
   </article></li>
 {% endfor -%}
 </ul>
